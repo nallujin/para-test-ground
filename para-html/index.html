@@ -4,8 +4,14 @@
 
     <head>
         <title>My First website</title>
+        <style>
+            body {background-color: #ccffff;}
+            h2 {color: #006600;}
+            p {color: #000000;}
+          </style>
     </head>
     <body>
+        
         <h2>Para link</h2>
         <hr>
         <a href="https://google.co.jp" target="blank">
@@ -15,14 +21,45 @@
         <a href="html-pg-2.html" target="blank">
             This link will take you to <em>html-pg-2.html</em>
         </a>
-        <br>
-        <h2>Image test</h2>
-        <hr>
-        <a href="https://google.co.uk" target="blank">
+        
+        <br><br>
+        
+        <audio controls>
+            <source src="audio/jpb-high.mp3" id="myaudio">
+            This browser doesn't support HTML5 audio player.
+        </audio>
+        <script>
+            var audio = document.getElementById("myaudio");
+            audio.volume = 0.2;
+          </script>
+
+        <h2>Image test n' some lorem ipsum</h2>
+        <hr color="#ffffff">
+        <p style="color: #0000FF;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Ratione placeat, provident aspernatur quis corporis dolore 
+            in architecto est omnis asperiores maiores cum reiciendis 
+            nisi saepe amet! Dolorem asperiores blanditiis atque.
+        </p>
+        <a href="https://google.co.uk" target="blank"></a>
             <img src="images/ei.jpg" 
             height="370px"
             alt="This is Ei's pict"
             title="This is Ei's pict">
         </a>
+
+        <br><br>
+        <h2>Video test n' some lorem ipsum</h2>
+        <hr color="#ffffff">
+        <p style="color: #FF0000;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Ratione placeat, provident aspernatur quis corporis dolore 
+            in architecto est omnis asperiores maiores cum reiciendis 
+            nisi saepe amet! Dolorem asperiores blanditiis atque.
+        </p>
+        <video controls autoplay width="350">
+            <source src="video/white-claw.mp4" type="video/mp4">
+        </video>
+
     </body>
 </html>
