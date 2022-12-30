@@ -11,7 +11,15 @@
         </style>
     </head>
     <body>
-        <h2>Para link</h2>
+        <button onclick="doSomething()" style="background-color: #FFFFFF; width: 50px; border-radius: 50px;">
+            Hello
+        </button>
+        <h2 id="is">Para link</h2>
+        <script>
+            function doSomething(){
+                document.getElementById("is").innerHTML = "2 Links"
+            }
+        </script>
         <hr color="#ffffff">
         <a href="https://google.co.jp" target="blank">
             This link will take you to Google JP.
