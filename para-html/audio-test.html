@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Audio test</title>
+        <style>
+            body {background-color: #ccffff;}
+            h2 {color: #006600;}
+            p {color: #000000;}
+        </style>
+    </head>
+    <body>
+        <h2>Audio test</h2>
+        <hr color="#ffffff">
+        <audio controls>
+            <source src="audio/jpb-high.mp3" id="myaudio">
+            This browser doesn't support HTML5 audio player.
+        </audio>
+        <script>
+            var audio = document.getElementById("myaudio");
+            audio.volume = 0.2;
+        </script>
+    </body>
+</html>

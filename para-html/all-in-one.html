@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>My First Website</title>
+        <style>
+            body {background-color: #ccffff;}
+            h2 {color: #006600;}
+            p {color: #000000;}
+        </style>
+    </head>
+    <body>
+        <button onclick="doSomething()" style="background-color: #FFFFFF; width: 50px;">
+            This is a button
+        </button>
+        <h2 id="is">Para link</h2>
+        <script>
+            function doSomething(){
+                document.getElementById("is").innerHTML = "2 Links"
+            }
+        </script>
+        <hr color="#ffffff">
+        <a href="https://google.co.jp" target="blank">
+            This link will take you to Google (JP)
+        </a>
+        <br>
+        <a href="html-pg-2.html" target="blank">
+            This link will take you to <em>html-pg-2.html</em>
+        </a>
+        <br><br>
+        <h2>Audio test</h2>
+        <hr color="#ffffff">
+        <audio controls>
+            <source src="audio/jpb-high.mp3" id="myaudio">
+            This browser doesn't support HTML5 audio player.
+        </audio>
+        <script>
+            var audio = document.getElementById("myaudio");
+            audio.volume = 0.2;
+        </script>
+        <br><br>
+        <h2>Image test n' some lorem ipsum</h2>
+        <hr color="#ffffff">
+        <p style="color: #0000FF;">
+            <mark>Lorem</mark> ipsum dolor sit amet consectetur adipisicing elit. 
+            Ratione placeat, provident aspernatur quis corporis dolore 
+            in architecto est omnis asperiores maiores cum reiciendis 
+            nisi saepe amet! Dolorem asperiores blanditiis atque.
+        </p>
+        <a href="https://cdn.discordapp.com/attachments/927530237342912562/1058026418652585984/Fflxr98WIAEOK8L.jpg" target="blank"></a>
+            <img src="images/ei.jpg" 
+            height="370px"
+            alt="This is Ei's pict"
+            title="This is Ei's pict">
+        </a>
+        <br><br>
+        <h2>Video test n' some lorem ipsum</h2>
+        <hr color="#ffffff">
+        <p style="color: #000000;">
+            <strong>Lorem</strong> <em>ipsum</em> dolor sit amet consectetur adipisicing elit. 
+            Ratione placeat, provident aspernatur quis corporis dolore 
+            in architecto est omnis asperiores maiores cum reiciendis 
+            nisi saepe amet! Dolorem asperiores blanditiis atque.
+        </p>
+        <video controls width="350">
+            <source src="video/white-claw.mp4" type="video/mp4">
+        </video>
+        <br><br>
+        <h2>Text formatting and list</h2>
+        <hr color="#ffffff">
+        <!--
+            <b> -------	Bold text
+            <strong> --	Important text
+            <i> -------	Italic text
+            <em> ------	Emphasized text
+            <mark> ----	Marked text
+            <small> ---	Smaller text
+            <del> -----	Deleted text
+            <ins> -----	Inserted text
+            <sub> -----	Subscript text
+            <sup> -----	Superscript text
+        -->
+        <h3>Unordered list</h3>
+        <ul>
+            <li><strong>Bold - This is strong</strong></li>
+            <li><em>Italic - This is emphasize (em)</em></li>
+            <li><ins>Underline - This is inserted text</ins></li>
+            <li><del>Striketrough - This is deleted text</del></li>
+            <li><mark>This is marked text</mark></li>
+            <li>This is <small>small text</small></li>
+            <li>This is<sub> subscript</sub></li>
+            <li>This is<sup> superscript</sup></li>
+        </ul>
+        <h3>Ordered list</h3>
+        <ol type="A">
+            <li><strong>Bold - This is strong</strong></li>
+            <li><em>Italic - This is emphasize (em)</em></li>
+            <li><ins>Underline - This is inserted text</ins></li>
+            <li><del>Striketrough - This is deleted text</del></li>
+            <li><mark>This is marked text</mark></li>
+            <li>This is <small>small text</small></li>
+            <li>This is<sub> subscript</sub></li>
+            <li>This is<sup> superscript</sup></li>
+        </ol>
+        <br><br>
+        <h2>Tables</h2>
+        <hr color="#ffffff">
+        <table bgcolor="000000" width="700">
+            <tr bgcolor="grey">
+                <th width="100">Sunday</th>
+                <th width="100">Monday</th>
+                <th width="100">Tuesday</th>
+                <th width="100">Wednesday</th>
+                <th width="100">Thursday</th>
+                <th width="100">Friday</th>
+                <th width="100">Saturday</th>
+            </tr>
+            <tr bgcolor="fff000" align="center">
+                <td>Closed</td>
+                <td>9 to 5</td>
+                <td>9 to 5</td>
+                <td>9 to 5</td>
+                <td>9 to 5</td>
+                <td>9 to 5</td>
+                <td>Closed</td>
+            </tr>
+        </table>
+    </body>
+</html>
