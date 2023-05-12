@@ -1,6 +1,7 @@
 <html lang="en">
 <head>
     <title>Hanya tes banh</title>
+    <link rel="icon" type="image/png" href="images/earth.png">
     <style>
         div {
             border: 1px solid black;
@@ -12,6 +13,9 @@
             margin-top: -50px;
             transform: translate(-50%, -50%)
         }
+        input[type="text"] {
+            background-color: lightblue;
+        }
     </style>
 </head>
 <body>
@@ -20,6 +24,13 @@
     <form style="margin-top: 35px; margin-left: 40px;">
         <label for="ih1">Ini nama: </label>
         <input type="text" name="name" id="ih1">
+        <br>
+        <label for="c3r">Your choice here: </label>
+        <select  name="car" id="c3r">
+            <option value="1">Honda</option>
+            <option value="2">Toyota</option>
+            <option value="3" selected>Sari Roti</option>
+        </select>
         <br>
         <input type="submit">
     </form>
