@@ -1,249 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Buttons</title>
-    <style>
-      .subscribe-button {
-        color: white;
-        background-color: #c80000;
-        border: none;
-        padding: 10px 16px;
-        font-family: "Arial", Serif, serif;
-        border-radius: 3px;
-        cursor: pointer;
-        margin-right: 8px;
-        vertical-align: top;
-        transition: opacity 150ms;
-      }
-
-      .subscribe-button:hover {
-        opacity: 0.8;
-      }
-
-      .subscribe-button:active {
-        opacity: 0.5;
-      }
-
-      .join-button {
-        background-color: #FFFFFF;
-        border-color: rgb(41, 118, 211);
-        border-width: 1px;
-        border-style: solid;
-        border-radius: 2px;
-        color: rgb(41, 118, 211);
-        cursor: pointer;
-        padding: 9px 15px;
-        font-size: 14px;
-        transition: background-color 150ms,
-          color 150ms;
-      }
-
-      .join-button:hover {
-        background-color: rgb(41, 118, 211);
-        color: #FFFFFF;
-      }
-
-      .join-button:active {
-        opacity: 0.7;
-      }
-
-      .twit {
-        background-color: #1d9bf0;
-        border-radius: 50px;
-        border: 0;
-        color: white;
-        padding: 10px 16px;
-        margin-left: 8px;
-        font-size: 15px;
-        font-weight: bold;
-        cursor: pointer;
-        vertical-align: top;
-        transition: box-shadow 150ms;
-      }
-
-      .twit:hover {
-        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
-      }
-
-      .twit:active {
-        opacity: 0.7;
-      }
-
-      .uber {
-        background-color: #000000;
-        color: #FFFFFF;
-        padding: 8px 30px;
-        font-family: Arial, Serif, serif;
-        cursor: pointer;
-        transition: opacity 0.15s;
-      }
-
-      .uber:hover {
-        opacity: 0.8;
-      }
-
-      .uber:active {
-        opacity: 0.6;
-      }
-
-      .amazon {
-        border-width: 0;
-        background-color: rgb(255, 216, 20);
-        padding: 9px 25px;
-        border-radius: 20px;
-        font-family: "Arial", Serif, serif;
-        cursor: pointer;
-      }
-
-      .amazon:hover {
-        background-color: rgb(239, 202, 73);
-      }
-
-      .amazon:active {
-        opacity: 0.8;
-      }
-
-      .guthib {
-        border-width: 0;
-        background-color: rgb(46, 164, 79);
-        color: #FFFFFF;
-        padding: 10px 20px;
-        border-radius: 5px;
-        font-weight: bold;
-        cursor: pointer;
-        transition: box-shadow 0.15s;
-      }
-
-      .guthib:hover {
-        box-shadow: 0 7px 10px rgba(0, 0, 0, 0.3);
-      }
-
-      .guthib:active {
-        opacity: 0.7;
-      }
-
-      .bs1 {
-        margin-right: 10px;
-        border-width: 0;
-        background-color: rgb(121, 82, 179);
-        color: #FFFFFF;
-        font-weight: bold;
-        padding: 10px 20px;
-        border-radius: 4px;
-        cursor: pointer;
-        transition: background-color 0.15s;
-      }
-
-      .bs1:hover {
-        background-color: rgb(90, 60, 129);
-      }
-
-      .bs1:active {
-        opacity: 0.7;
-      }
-
-      .bs2 {
-        font-weight: bold;
-        padding: 9px 18px;
-        border-radius: 4px;
-        border-width: 1px;
-        border-color: rgb(108, 117, 125);
-        color: rgb(108, 117, 125);
-        background-color: #FFFFFF;
-        cursor: pointer;
-        transition: background-color 0.15s,
-          color 0.15s;
-        }
-
-      .bs2:hover {
-        background-color: rgb(108, 117, 125);
-        color: #FFFFFF;
-      }
-
-      .bs2:active {
-        opacity: 0.7;
-      }
-
-      .linkedin1 {
-        margin-right: 10px;
-        background-color: rgb(10, 102, 194);
-        border-width: 0;
-        padding: 10px 25px;
-        color: #FFFFFF;
-        font-weight: bold;
-        border-radius: 20px;
-        cursor: pointer;
-        transition: background-color 0.15s;
-      }
-
-      .linkedin1:hover {
-        background-color: rgb(9, 83, 159);
-      }
-
-      .linkedin1:active {
-        opacity: 0.7;
-      }
-
-      .linkedin2{
-        background-color: #FFFFFF;
-        border-radius: 20px;
-        padding: 10px 22px;
-        border-width: 1px;
-        border-color: rgb(10, 102, 194);
-        color: rgb(10, 102, 194);
-        font-weight: bold;
-        cursor: pointer;
-        transition: background-color 0.15s;
-      }
-
-      .linkedin2:hover {
-        background-color: #eaeaea;
-        border-width: 2px;
-      }
-
-      .linkedin2:active {
-        opacity: 0.7;
-      }
-    </style>
+  <meta charset="UTF-8">
+  <title>Buttons</title>
+  <link rel="stylesheet" href="lesson-01.css">
 </head>
 <body>
-  <button class="subscribe-button">
-    SUBSCRIBE
-  </button>
-  <button class="join-button">
-    JOIN
-  </button>
-  <button class="twit">Tweet</button>
-  <hr>
-  <br>
-  <button class="uber">Request now</button>
-  <br>
-  <br>
-  <button class="amazon">
-      Add to Cart
-  </button>
-  <br>
-  <br>
-  <button class="guthib">
-      Sign up
-  </button>
-  <br>
-  <br>
-  <button class="bs1">
-      Get started
-  </button>
-  <button class="bs2">
-      Download
-  </button>
-  <br>
-  <br>
-  <button class="linkedin1">
-      Apply on company website
-  </button>
-  <button class="linkedin2">
-      Save
-  </button>
-  <hr>
+<button class="subscribe-button">
+  SUBSCRIBE
+</button>
+<button class="join-button">
+  JOIN
+</button>
+<button class="twit">Tweet</button>
+<hr>
+<br>
+<button class="uber">Request now</button>
+<br>
+<br>
+<button class="amazon">
+  Add to Cart
+</button>
+<br>
+<br>
+<button class="guthib">
+  Sign up
+</button>
+<br>
+<br>
+<button class="bs1">
+  Get started
+</button>
+<button class="bs2">
+  Download
+</button>
+<br>
+<br>
+<button class="linkedin1">
+  Apply on company website
+</button>
+<button class="linkedin2">
+  Save
+</button>
+<hr>
 </body>
 </html>
