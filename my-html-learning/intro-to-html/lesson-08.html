@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Block & Inline-Block</title>
+    <style>
+      hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      .eight__tajuk {
+        text-decoration: underline;
+        font-style: italic;
+        margin-top: 0;
+        transition: margin-bottom 0.5s, font-size 0.5s;
+      }
+
+      .eight__tajuk:hover {
+        text-decoration: none;
+        font-style: normal;
+        cursor: default;
+        margin-bottom: 50px;
+        font-size: 32px;
+      }
+
+      .eightA__01,
+      .eightA__02 {
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+
+      .eightB__text {
+        width: 200px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      .eightB__button {
+        vertical-align: middle;
+      }
+
+      .eightC__divs {
+        display: grid;
+        place-items: center;
+      }
+
+      .eightC__logo {
+        width: 300px;
+        display: block;
+      }
+
+      .eightC__search {
+        margin-top: 20px;
+        width: 500px;
+        border-width: 0;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        padding: 10px 20px;
+        border-radius: 100px;
+      }
+
+      .eightD__textBox--01,
+      .eightD__textBox--02 {
+        display: inline;
+        padding: 8px 2px;
+        width: 100px;
+      }
+
+      .eightD__textBox--03 {
+        display: block;
+        margin-top: 10px;
+        width: 220px;
+        padding: 8px 2px;
+      }
+
+      .eightD__button {
+        margin-top: 10px;
+        width: 220px;
+        padding: 8px 0;
+      }
+
+    </style>
+</head>
+<body>
+  <h2 class="eight__tajuk">
+    Lesson 08 of SuperSimpleDev's HTML n' CSS Tutorial
+  </h2>
+  <hr>
+  <input class="eightA__01" type="text" placeholder="Name">
+  <input class="eightA__02" type="text" placeholder="Email">
+  <hr>
+  <p class="eightB__text">
+    Thanks for chatting with our customer support. Would you like to take our quick survey?
+  </p>
+  <button class="eightB__button">Yes</button>
+  <button class="eightB__button">No</button>
+  <hr>
+  <div class="eightC__divs">
+    <img class="eightC__logo" src="googlogo.png">
+    <input class="eightC__search" type="text" placeholder="Search Google or type a URL">
+  </div>
+  <hr>
+  <input class="eightD__textBox--01" type="text" placeholder="First name">
+  <input class="eightD__textBox--02" type="text" placeholder="Last name">
+  <input class="eightD__textBox--03" type="text" placeholder="Email">
+  <input class="eightD__button" type="button" value="Sign In">
+</body>
+</html>
