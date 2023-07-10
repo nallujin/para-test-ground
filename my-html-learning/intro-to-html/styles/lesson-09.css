@@ -1,0 +1,205 @@
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  outline: none;
+}
+
+
+.nine__tajuk {
+  text-decoration: underline;
+  font-style: italic;
+  margin-top: 0;
+  transition: margin-bottom 0.5s, font-size 0.5s;
+}
+
+.nine__tajuk:hover {
+  text-decoration: none;
+  font-style: normal;
+  cursor: default;
+  margin-bottom: 50px;
+  font-size: 32px;
+}
+
+.nineA {
+  width: 100px;
+  height: 100px;
+  background-color: #ff0000;
+}
+
+.nineB {
+  width: 100px;
+  height: 100px;
+  background-color: #496A4D;
+  border-radius: 100px;
+}
+
+.nineC__container {
+  width: 300px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 0 15px;
+  font-family: Arial, Serif, serif;
+}
+
+.nineC__button {
+  margin-bottom: 15px;
+}
+
+.nineD__container {
+  font-family: Arial, Serif, serif;
+  width: 330px;
+  background-color: #313131;
+}
+
+.nineD__title {
+  color: #FFFFFF;
+  padding: 0 10px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.nineD__desc {
+  padding: 0 10px;
+  margin-top: 0;
+  color: #a1a1a1;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.nineE__container {
+  padding: 10px 10px;
+  border-style: none;
+  border-radius: 5px;
+  display: inline-block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  font-family: Arial, Serif, serif;
+
+}
+
+.nineE__photoprofile {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  object-position: left;
+  border-radius: 100px;
+  vertical-align: middle;
+}
+
+.nineE__field {
+  vertical-align: middle;
+  border-style: none;
+  width: 175px;
+}
+
+.nineE__button--Tweet {
+  background-color: #1DA1F2;
+  border-style: none;
+  padding: 10px 15px;
+  border-radius: 100px;
+  font-weight: bold;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.nineE__button--Tweet:hover {
+  opacity: 0.8;
+}
+
+.nineF__container {
+  display: inline-block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 150px;
+  overflow: hidden;
+  font-family: Arial, Serif, serif;
+  margin-right: 15px;
+}
+
+.nineF__photoprofile {
+  display: inline-block;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  object-position: left;
+  transition: opacity 0.15s;
+  cursor: pointer;
+}
+
+.nineF__photoprofile:hover,
+.nineF__photoprofile--1:hover{
+  opacity: 0.8;
+}
+
+.nineF__name {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.nineF__status {
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding: 0 10px;
+  cursor: default;
+}
+
+.nineF__add {
+  background-color: #1877F2;
+  color: #FFFFFF;
+  padding: 7px 15px;
+  border: 0;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.nineF__add:hover {
+  opacity: 0.7;
+}
+
+.nineF__photoprofile--1 {
+  display: inline-block;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  transition: opacity 0.15s;
+  cursor: pointer;
+}
+
+.nineH__container--1 {
+  text-align: center;
+}
+
+.nineH__logo {
+  width: 200px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nineH__search {
+  display: inline-block;
+  border: none;
+  width: 450px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+  padding: 10px 10px;
+  margin-top: 12px;
+}
+
+.nineH__buttons {
+  display: inline-block;
+  margin-top: 30px;
+  border: none;
+  padding: 10px 10px;
+}
+

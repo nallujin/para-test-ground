@@ -3,84 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Block & Inline-Block</title>
-    <style>
-      hr {
-        margin-top: 20px;
-        margin-bottom: 20px;
-      }
-
-      .eight__tajuk {
-        text-decoration: underline;
-        font-style: italic;
-        margin-top: 0;
-        transition: margin-bottom 0.5s, font-size 0.5s;
-      }
-
-      .eight__tajuk:hover {
-        text-decoration: none;
-        font-style: normal;
-        cursor: default;
-        margin-bottom: 50px;
-        font-size: 32px;
-      }
-
-      .eightA__01,
-      .eightA__02 {
-        display: block;
-        margin-top: 5px;
-        margin-bottom: 5px;
-      }
-
-      .eightB__text {
-        width: 200px;
-        display: inline-block;
-        vertical-align: middle;
-      }
-
-      .eightB__button {
-        vertical-align: middle;
-      }
-
-      .eightC__divs {
-        display: grid;
-        place-items: center;
-      }
-
-      .eightC__logo {
-        width: 300px;
-        display: block;
-      }
-
-      .eightC__search {
-        margin-top: 20px;
-        width: 500px;
-        border-width: 0;
-        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-        padding: 10px 20px;
-        border-radius: 100px;
-      }
-
-      .eightD__textBox--01,
-      .eightD__textBox--02 {
-        display: inline;
-        padding: 8px 2px;
-        width: 100px;
-      }
-
-      .eightD__textBox--03 {
-        display: block;
-        margin-top: 10px;
-        width: 220px;
-        padding: 8px 2px;
-      }
-
-      .eightD__button {
-        margin-top: 10px;
-        width: 220px;
-        padding: 8px 0;
-      }
-
-    </style>
+    <link rel="stylesheet" href="styles/lesson-08.css">
 </head>
 <body>
   <h2 class="eight__tajuk">
@@ -104,6 +27,14 @@
   <input class="eightD__textBox--01" type="text" placeholder="First name">
   <input class="eightD__textBox--02" type="text" placeholder="Last name">
   <input class="eightD__textBox--03" type="text" placeholder="Email">
-  <input class="eightD__button" type="button" value="Sign In">
+  <button class="eightD__button">Sign In</button>
+  <hr>
+  <p class="eightE__title">
+    Request a ride now
+  </p>
+  <input class="eightE__textBox" type="text" placeholder="Enter pickup location">
+  <input class="eightE__textBox" type="text" placeholder="Enter destination">
+  <button class="eightE__button--01">Request now</button>
+  <button class="eightE__button--02">Schedule for later</button>
 </body>
 </html>
