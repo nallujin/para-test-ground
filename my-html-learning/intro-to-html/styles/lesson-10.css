@@ -1,0 +1,20 @@
+h2 {
+  font-family: Arial, sans-serif;
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
+h2 a {
+  color: #FFFFFF;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ej2 {
+  background-color: #496A4D;
+  padding: 10px 10px;
+}
+
