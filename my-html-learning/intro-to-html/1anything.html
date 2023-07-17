@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Testing</title>
+  <style>.discover-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .user-card {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 10px;
+    width: 300px;
+  }
+
+  .profile-picture img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .user-info {
+    margin-left: 10px;
+  }
+
+  .username {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .follow-button {
+    margin-left: auto;
+    background-color: #3897f0;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .name {
+    font-size: 14px;
+    color: #555;
+  }
+  </style>
+</head>
+<body>
+<div class="discover-section">
+  <div class="user-card">
+    <div class="profile-picture">
+      <img src="https://www.alleycat.org/wp-content/uploads/2019/03/FELV-cat.jpg" alt="Profile Picture">
+    </div>
+    <div class="user-info">
+      <h3 class="username">username1</h3>
+      <p class="name">Full Name 1</p>
+    </div>
+    <button class="follow-button">Follow</button>
+  </div>
+
+  <div class="user-card">
+    <div class="profile-picture">
+      <img src="profile2.jpg" alt="Profile Picture">
+    </div>
+    <div class="user-info">
+      <h3 class="username">username2</h3>
+      <p class="name">Full Name 2</p>
+    </div>
+    <button class="follow-button">Follow</button>
+  </div>
+
+  <!-- Add more user cards as needed -->
+</div>
+</body>
+</html>

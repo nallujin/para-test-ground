@@ -18,3 +18,146 @@ hr {
   padding: 10px 10px;
 }
 
+.tenA__mainContainter {
+  width: 300px;
+  height: 70px;
+  display: block;
+}
+
+.tenA__pprofile--container {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+}
+
+.tenA__pprofile {
+  object-fit: cover;
+  object-position: left;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+.tenA__profiles {
+  display: inline-block;
+  height: 60px;
+  width: 150px;
+  vertical-align: top;
+  font-family: Arial, sans-serif;
+}
+
+.tenA__profile--name {
+  font-weight: bold;
+  line-height: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.tenA__profile--nick {
+  margin-bottom: 0;
+  margin-top: 3px;
+  color: #707370;
+}
+
+.tenA__profile--info {
+  margin-bottom: 0;
+  margin-top: 3px;
+  color: #707370;
+  font-size: 13px;
+}
+
+.tenA__button {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  vertical-align: top;
+}
+
+.tenA__theButton {
+  border: 0;
+  background-color: #1d9bf0;
+  color: #FFFFFF;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin-top: 12px;
+}
+
+.tenA__pprofile--1 {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+.tenA__pprofile--2 {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+.tenC__mainContainer {
+  height: 100px;
+  margin: 5px 5px;
+}
+
+.tenC__thumbnail {
+  height: 99px;
+  width: 172px;
+  display: inline-block;
+}
+
+.tenC__theThumbnail {
+  width: 100%;
+  height: 100%;
+}
+
+.tenC__videoInfo {
+  width: 240px;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  vertical-align: top;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.tenC__videoInfo--title {
+  font-weight: bold;
+  line-height: 20px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.tenC__videoInfo--chName {
+  margin: 0 0;
+  color: #777777;
+  font-size: 90%;
+}
+
+.tenC__videoInfo--stats {
+  margin-top: 8px;
+  margin-bottom: 0;
+  color: #777777;
+  font-size: 90%;
+}
+
+.tenD__container {
+  width: 175px;
+  border-style: solid;
+  border-width: 1px;
+  display: inline-block;
+}
+
+.tenD__pprofile {
+
+}
+
+.tenD__pprofile--thePhoto {
+  width: 100%;
+  height: 175px;
+  object-fit: cover;
+  object-position: left;
+}
