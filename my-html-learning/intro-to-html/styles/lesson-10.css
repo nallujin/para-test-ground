@@ -146,9 +146,9 @@ hr {
 
 .tenD__container {
   width: 175px;
-  border-style: solid;
-  border-width: 1px;
   display: inline-block;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  margin: 0 5px;
 }
 
 .tenD__pprofile {
@@ -160,4 +160,54 @@ hr {
   height: 175px;
   object-fit: cover;
   object-position: left;
+}
+
+.tenD__theName {
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.tenD__mutuals--photo {
+  margin-left: 10px;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+
+.tenD__mutualThep {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.tenD__mutuals--info {
+  display: inline-block;
+  margin-left: 2px;
+  height: 100%;
+  vertical-align: top;
+  font-family: Arial, sans-serif;
+  color: #777777;
+  font-size: 15px;
+}
+
+
+.tenD__theButton {
+  margin-top: 5px;
+  margin-left: 10px;
+  background-color: #5273b9;
+  color: #FFFFFF;
+  border: 0;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.edit1 {
+  object-position: center;
 }
