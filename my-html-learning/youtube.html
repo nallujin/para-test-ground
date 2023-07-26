@@ -2,110 +2,266 @@
 <html lang="en">
 <head>
   <title>Youtube</title>
+  <link rel="stylesheet" href="youtube.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  <style>
-    p {
-      font-family: Roboto;
-      margin-top: 0;
-      margin-bottom: 0;
-    }
-
-    .thumbnail {
-      width: 300px;
-      display: block;
-    }
-
-    .search-bar {
-      display: block;
-    }
-
-    .video-title {
-      margin-top: 0;
-      font-size: 14px;
-      font-weight: 500;
-      line-height: 20px;
-      margin-bottom: 12px;
-    }
-
-    .video-preview {
-      width: 300px;
-      display: inline-block;
-      vertical-align: top;
-      margin-right: 15px;
-    }
-
-    .channel-picture {
-      display: inline-block;
-      width: 50px;
-      vertical-align: top
-    }
-
-    .video-info {
-      display: inline-block;
-      width: 200px;
-    }
-
-    .profile-picture {
-      width: 40px;
-      border-radius: 100px;
-    }
-
-    .thumbnail-row {
-      margin-bottom: 12px;
-    }
-
-    .video-author,
-    .video-stats {
-      font-size: 12px;
-      color: #606060;
-    }
-
-    .video-author {
-      margin-bottom: 4px;
-    }
-  </style>
 </head>
 <body>
 <input class="search-bar" placeholder="Search" type="text">
-<div class="video-preview">
-  <div class="thumbnail-row">
-    <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+  <div class="main-container">
+    <div class="video-card">
+      <div class="thumbnail">
+        <img src="thumbnails/thumbnail-1.webp" alt="" class="theThumbnail">
+      </div>
+      <div class="video-info">
+        <div class="channel-picture">
+          <img src="channel-pictures/channel-1.jpeg" alt="" class="channel-pictures">
+        </div>
+        <div class="video-text">
+          <p class="video-title">
+            Talking Tech and AI  with Google CEO Sundar Pichai!
+          </p>
+          <p class="channel-name">
+            Marques Brownlee
+          </p>
+          <p class="video-stats">
+            3.4M views 	&#183; 6 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-card">
+      <div class="thumbnail">
+        <img src="thumbnails/thumbnail-2.webp" alt="" class="theThumbnail">
+      </div>
+      <div class="video-info">
+        <div class="channel-picture">
+          <img src="channel-pictures/channel-2.jpeg" alt="" class="channel-pictures">
+        </div>
+        <div class="video-text">
+          <p class="video-title">
+            Try Not To Laugh Challenge #9
+          </p>
+          <p class="channel-name">
+            Markiplier
+          </p>
+          <p class="video-stats">
+            19M views 	&#183; 4 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-card">
+      <div class="thumbnail">
+        <img src="thumbnails/thumbnail-3.webp" alt="" class="theThumbnail">
+      </div>
+      <div class="video-info">
+        <div class="channel-picture">
+          <img src="channel-pictures/channel-3.jpeg" alt="" class="channel-pictures">
+        </div>
+        <div class="video-text">
+          <p class="video-title">
+            Crazy Tik Toks Taken Moments Before DISASTER
+          </p>
+          <p class="channel-name">
+            SSSniperWolf
+          </p>
+          <p class="video-stats">
+            12M views 	&#183; 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-card">
+      <div class="thumbnail">
+        <img src="thumbnails/thumbnail-4.webp" alt="" class="theThumbnail">
+      </div>
+      <div class="video-info">
+        <div class="channel-picture">
+          <img src="channel-pictures/channel-4.jpeg" alt="" class="channel-pictures">
+        </div>
+        <div class="video-text">
+          <p class="video-title">
+            The Simplest Math Problem No One Can Solve - Collatz Conjecture
+          </p>
+          <p class="channel-name">
+            Veritasium
+          </p>
+          <p class="video-stats">
+            18M views &#183; 4 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-card">
+      <div class="thumbnail">
+        <img src="thumbnails/thumbnail-5.webp" alt="" class="theThumbnail">
+      </div>
+      <div class="video-info">
+        <div class="channel-picture">
+          <img src="channel-pictures/channel-5.jpeg" alt="" class="channel-pictures">
+        </div>
+        <div class="video-text">
+          <p class="video-title">
+            Kadane's Algorithm to Maximum Sum Subarray Problem
+          </p>
+          <p class="channel-name">
+            CS Dojo
+          </p>
+          <p class="video-stats">
+            519K views 	&#183; 5 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-card">
+      <div class="thumbnail">
+        <img src="thumbnails/thumbnail-6.webp" alt="" class="theThumbnail">
+      </div>
+      <div class="video-info">
+        <div class="channel-picture">
+          <img src="channel-pictures/channel-6.jpeg" alt="" class="channel-pictures">
+        </div>
+        <div class="video-text">
+          <p class="video-title">
+            Anything You Can Fit In The Circle I'll Pay For
+          </p>
+          <p class="channel-name">
+            MrBeast
+          </p>
+          <p class="video-stats">
+            141M views 	&#183; 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-card">
+      <div class="thumbnail">
+        <img src="thumbnails/thumbnail-7.webp" alt="" class="theThumbnail">
+      </div>
+      <div class="video-info">
+        <div class="channel-picture">
+          <img src="channel-pictures/channel-7.jpeg" alt="" class="channel-pictures">
+        </div>
+        <div class="video-text">
+          <p class="video-title">
+            Why Planes Don't Fly Over Tibet
+          </p>
+          <p class="channel-name">
+            RealLifeLore
+          </p>
+          <p class="video-stats">
+            6.6M views 	&#183; 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-card">
+      <div class="thumbnail">
+        <img src="thumbnails/thumbnail-8.webp" alt="" class="theThumbnail">
+      </div>
+      <div class="video-info">
+        <div class="channel-picture">
+          <img src="channel-pictures/channel-8.jpeg" alt="" class="channel-pictures">
+        </div>
+        <div class="video-text">
+          <p class="video-title">
+            Inside The World's Biggest Passenger Plane
+          </p>
+          <p class="channel-name">
+            Tech Vision
+          </p>
+          <p class="video-stats">
+            3.7M views 	&#183; 10 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-card">
+      <div class="thumbnail">
+        <img src="thumbnails/thumbnail-9.webp" alt="" class="theThumbnail">
+      </div>
+      <div class="video-info">
+        <div class="channel-picture">
+          <img src="channel-pictures/channel-9.jpeg" alt="" class="channel-pictures">
+        </div>
+        <div class="video-text">
+          <p class="video-title">
+            The SECRET to Super Human STRENGTH
+          </p>
+          <p class="channel-name">
+            ThenX
+          </p>
+          <p class="video-stats">
+            20M views 	&#183; 3 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-card">
+      <div class="thumbnail">
+        <img src="thumbnails/thumbnail-10.webp" alt="" class="theThumbnail">
+      </div>
+      <div class="video-info">
+        <div class="channel-picture">
+          <img src="channel-pictures/channel-10.jpeg" alt="" class="channel-pictures">
+        </div>
+        <div class="video-text">
+          <p class="video-title">
+            How The World's Largest Cruise Ship Makes 30,000 Meals Every Day
+          </p>
+          <p class="channel-name">
+            Business Insider
+          </p>
+          <p class="video-stats">
+            14M views	&#183; 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-card">
+      <div class="thumbnail">
+        <img src="thumbnails/thumbnail-11.webp" alt="" class="theThumbnail">
+      </div>
+      <div class="video-info">
+        <div class="channel-picture">
+          <img src="channel-pictures/channel-11.jpeg" alt="" class="channel-pictures">
+        </div>
+        <div class="video-text">
+          <p class="video-title">
+            Dubai's Crazy Underwater Train and Other Things #Only In Dubai
+          </p>
+          <p class="channel-name">
+            Destination Tips
+          </p>
+          <p class="video-stats">
+            3M views 	&#183; 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-card">
+      <div class="thumbnail">
+        <img src="thumbnails/thumbnail-12.webp" alt="" class="theThumbnail">
+      </div>
+      <div class="video-info">
+        <div class="channel-picture">
+          <img src="channel-pictures/channel-12.jpeg" alt="" class="channel-pictures">
+        </div>
+        <div class="video-text">
+          <p class="video-title">
+            What would happen if you didn't drink water? - Mia Nacamulli
+          </p>
+          <p class="channel-name">
+            TED-Ed
+          </p>
+          <p class="video-stats">
+            12M views 	&#183; 5 years ago
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="channel-picture">
-    <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
-  </div>
-  <div class="video-info">
-    <p class="video-title">
-      Talking Tech and AI with Google CEO Sundar Pichai!
-    </p>
-    <p class="video-author">
-      Marques Brownlee
-    </p>
-    <p class="video-stats">
-      3.4M views &#183; 6 months ago
-    </p>
-  </div>
-</div>
-<div class="video-preview">
-  <div class="thumbnail-row">
-    <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
-  </div>
-  <div class="channel-picture">
-    <img class="profile-picture" src="channel-pictures/channel-2.jpeg">
-  </div>
-  <div class="video-info">
-    <p class="video-title">
-      Try Not To Laugh Challenge #9
-    </p>
-    <p class="video-author">
-      Markiplier
-    </p>
-    <p class="video-stats">
-      19M views &#183; 4 years ago
-    </p>
-  </div>
-</div>
 </body>
 </html>
