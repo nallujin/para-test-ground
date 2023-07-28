@@ -1,0 +1,59 @@
+hr {
+  margin: 30px 0;
+}
+
+input[type="text"] {
+  outline: none;
+}
+
+.twelveE--container {
+  margin-top: 30px;
+  border-width: 1px;
+  border-color: #777777;
+  border-radius: 7px;
+  border-style: solid;
+  width: 250px;
+  font-family: Arial, sans-serif;
+  padding: 5px 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.twelveE--cont2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.twelveE--dot {
+  background-color: #5273B9;
+  padding: 5px 12px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-radius: 100px;
+}
+
+.twelveF--header {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.left {
+
+  background-color: lightblue;
+}
+
+.middle {
+  flex: 1;
+  background-color: lightpink;
+  justify-content: center;
+}
+
+.right {
+  background-color: lightblue;
+}

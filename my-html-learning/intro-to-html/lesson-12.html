@@ -2,9 +2,119 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>Flexbox CSS</title>
+  <link rel="stylesheet" href="styles/lesson-12.css">
 </head>
-<body>
-
+<body style="padding-bottom: 1000px;">
+<!-- 12a.start -->
+<div style="display: flex; flex-direction: row; margin-top: 30px;">
+  <div style="background-color: lightblue; width: 200px;">
+    200px
+  </div>
+  <div style="background-color: lightpink; width: 75px">
+    75px
+  </div>
+</div>
+<!-- 12a.end -->
+<hr>
+<!-- 12b.start -->
+<div style="display: flex; flex-direction: row;">
+  <div style="background-color: lightblue; width: 50px;">
+    item1
+  </div>
+  <div style="background-color: lightpink; flex: 1;">
+    item2
+  </div>
+  <div style="background-color: lightblue; width: 75px;">
+    item3
+  </div>
+</div>
+<!-- 12b.end -->
+<hr>
+<!-- 12c.start -->
+<div style="display: flex; flex-direction: row; justify-content: space-between;">
+  <div style="background-color: lightpink;">
+    item1
+  </div>
+  <div style="background-color: lightpink;">
+    item2
+  </div>
+  <div style="background-color: lightpink;">
+    item3
+  </div>
+  <div style="background-color: lightpink;">
+    item4
+  </div>
+</div>
+<!-- 12c.end -->
+<hr>
+<!-- 12d.start -->
+<div style="display: flex;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #777777;
+            height: 50px;
+            align-items: center;
+            justify-content: space-between;">
+  <div style="background-color: lightpink;">
+    item1
+  </div>
+  <div style="background-color: lightpink;">
+    item2
+  </div>
+</div>
+<!-- 12d.end -->
+<hr>
+<!-- 12e.start -->
+<div class="twelveE--container">
+  <div class="twelveE--cont2">
+    <div>
+      Home
+    </div>
+    <div class="twelveE--dot">
+      14
+    </div>
+  </div>
+  <div class="twelveE--cont2">
+    <div>
+      Notification
+    </div>
+    <div class="twelveE--dot">
+      3
+    </div>
+  </div>
+  <div class="twelveE--cont2">
+    <div>
+      Messages
+    </div>
+    <div class="twelveE--dot">
+      5
+    </div>
+  </div>
+</div>
+<!-- 12e.end -->
+<hr>
+<!-- 12f.start -->
+<div class="twelveF--header">
+  <div class="left">
+    <button>
+      Home
+    </button>
+  </div>
+  <div class="middle">
+    <label>
+      <input type="text" class="vvvvj" placeholder="Search">
+    </label>
+  </div>
+  <div class="right">
+    <button>
+      Download
+    </button>
+  </div>
+</div>
+<!-- 12f.end -->
+<hr>
+<!-- 12g.start -->
+<!-- 12g.end -->
 </body>
 </html>
