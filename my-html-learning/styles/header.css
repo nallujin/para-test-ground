@@ -1,0 +1,28 @@
+.header--Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left-side {
+  display: flex;
+  width: 300px;
+  background-color: lightblue;
+}
+
+.searchBox {
+  background-color: lightpink;
+  margin: 0 70px 0 35px;
+  height: 75px;
+  flex: 1;
+  max-width: 450px;
+}
+
+.search-bar {
+
+}
+
+.right-side {
+  background-color: lightblue;
+  width: 400px;
+}
