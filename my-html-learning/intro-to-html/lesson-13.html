@@ -7,9 +7,18 @@
   </title>
   <link href="styles/lesson-13.css" rel="stylesheet">
   <style>
+    html {
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      padding-bottom: 1000px;
+    }
+
     .one {
       display: flex;
       flex-direction: row;
+      font-family: "Times New Roman", sans-serif;
     }
 
     .one-one {
@@ -46,13 +55,14 @@
       padding: 10px;
       border-radius: 3px;
       flex-direction: column;
-      width: 375px;
+      width: 400px;
     }
 
     .title {
       font-family: Arial, sans-serif;
       color: #8e8f8e;
       display: flex;
+      margin-bottom: 10px;
     }
 
     .card {
@@ -60,6 +70,7 @@
       margin: 10px 0;
       border-width: 1px;
       flex-grow: 1;
+      line-height: 22px;
     }
 
     .photo-profile {
@@ -80,25 +91,111 @@
 
     .names {
       display: flex;
+      font-weight: bold;
     }
 
     .times {
       display: flex;
       margin-left: auto;
+      color: #8e8f8e;
+      font-size: 14px;
     }
 
     .message-info {
       border-width: 1px;
       margin-left: 10px;
+      width: 100%;
       /*border-style: solid;*/
     }
 
     .message-title {
       display: flex;
+      font-weight: bold;
     }
 
     .the-message {
       display: flex;
+      color: #8e8f8e;
+    }
+
+    .container1 {
+      /*border-width: 1px;*/
+      /*border-style: solid;*/
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+      border-radius: 5px;
+      display: flex;
+      width: fit-content;
+      padding: 10px 10px;
+    }
+
+    .the-pp {
+      height: 50px;
+     }
+
+    .pholder {
+      height: 100%;
+      border-radius: 100%;
+      margin-right: 10px;
+    }
+
+    .su-message {
+
+    }
+
+    .profile-info {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .nicknames {
+      font-weight: bold;
+      margin-right: 5px;
+      line-height: 20px;
+    }
+
+    .usernames {
+      color: #8e8f8e;
+      line-height: 20px;
+    }
+
+    .captions {
+      width: 320px;
+      line-height: 20px;
+    }
+
+    .new-card {
+      width: 100%;
+      margin-top: 10px;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 10px;
+      border-color: #d4d2d4;
+      display: flex;
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    .the-thumbnail {
+      height: 85px;
+      width: 85px;
+      background-color: #d4d2d4;
+
+    }
+
+    .card-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      line-height: 20px;
+      padding: 0 10px;
+    }
+
+    .the-link {
+      color: #5e656e;
+    }
+
+    .link-title {
+      width: 225px;
     }
   </style>
 </head>
@@ -140,6 +237,80 @@
       </div>
       <div class="the-message">
         Hey there! We're writing  to tell you about our...
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="photo-profile">
+      <img src="https://cdn.rescuegroups.org/970/pictures/animals/17987/17987432/87650176.jpg?width=500" alt="" class="the-photo">
+    </div>
+    <div class="message-info">
+      <div class="name-n-time">
+        <div class="names">
+          Best Buy
+        </div>
+        <div class="times">
+          12:32 PM
+        </div>
+      </div>
+      <div class="message-title">
+        Your Best Buy eReceipt
+      </div>
+      <div class="the-message">
+        Thank you for shopping at Best Buy, here is...
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="photo-profile">
+      <img src="https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/3/orange-cat-closeup-peggy-collins.jpg" alt="" class="the-photo">
+    </div>
+    <div class="message-info">
+      <div class="name-n-time">
+        <div class="names">
+          Netflix
+        </div>
+        <div class="times">
+          9:00 PM
+        </div>
+      </div>
+      <div class="message-title">
+        Here's what's coming soon to Netflix
+      </div>
+      <div class="the-message">
+        Brand new movies and shows, old favorites...
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+<div class="container1">
+  <div class="the-pp">
+    <img src="https://i.pinimg.com/550x/12/34/07/123407db7309943ded82fac871dec181.jpg" alt="" class="pholder">
+  </div>
+  <div class="su-message">
+    <div class="profile-info">
+      <div class="nicknames">
+        supersimple.dev
+      </div>
+      <div class="usernames">
+        @SuperSimpleDev
+      </div>
+    </div>
+    <div class="captions">
+      What is backend web developer? A complete overview. New video is up!
+    </div>
+    <div class="new-card">
+      <div class="the-thumbnail">
+        <!-- HAHAHAHA IT'S EMPTY YOU KNOW!! -->
+      </div>
+      <div class="card-info">
+        <div class="the-link">
+          youtube.com
+        </div>
+        <div class="link-title">
+          Backend web development - a complete overview (2021)
+        </div>
       </div>
     </div>
   </div>
