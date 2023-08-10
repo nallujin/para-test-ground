@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>
+    Advanced Position Fixed
+  </title>
+  <style>
+    body {
+      height: 3000px;
+      font-family: Arial, sans-serif;
+      background-color: #a9a9a9;
+    }
+
+    .the-header {
+      background-color: #FFFFFF;
+      height: 50px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: space-between;
+      border-width: 1px;
+      border-style: solid;
+    }
+
+
+    .left-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 15px;
+    }
+
+    .image-section {
+      height: 100%;
+      align-items: center;
+      display: flex;
+      margin-right: 10px;
+    }
+
+    .profile-photo {
+      height: 30px;
+      border-radius: 100%;
+    }
+    .the-name {
+      font-weight: bold;
+    }
+
+    .right-section {
+      margin-right: 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    .new-friend {
+      margin-right: 5px;
+      background-color: #3a73db;
+      border: 0;
+      color: #FFFFFF;
+      font-weight: bold;
+      padding: 7px 10px;
+      border-radius: 5px;
+    }
+
+    .new-message {
+      padding: 7px 10px;
+      border-radius: 5px;
+      background-color: #e4e5eb;
+      color: #000000;
+      border: 0;
+      font-weight: bold;
+    }
+
+    .the-left-side {
+      background-color: #1a1c1f;
+      width: 75px;
+      position: fixed;
+      left: 0;
+      top: 51px;
+      bottom: 0;
+      display: flex;
+      color: #FFFFFF;
+      flex-direction: column;
+      align-items: center;
+
+    }
+
+    .photo-pro {
+      height: 50px;
+      margin: 10px 0;
+    }
+
+    .dis-profiles {
+      height: 100%;
+      border-radius: 100%;
+    }
+
+    .another-one {
+      background-color: #292a2e;
+      position: fixed;
+      width: 170px;
+      top: 51px;
+      left: 75px;
+      bottom: 0;
+    }
+
+    .menus {
+      display: flex;
+      flex-direction: column;
+      color: #949494;
+      padding: 15px;
+    }
+
+    .categories {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 5px;
+    }
+
+    .the-info {
+      display: flex;
+      color: #e1e1e1;
+      align-items: center;
+      font-weight: bold;
+    }
+
+    .new-cat {
+      color: #8b8d91;
+      font-size: 24px;
+    }
+
+    .channels {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="the-header">
+    <div class="left-section">
+      <div class="image-section">
+        <img src="blank-pprofile.jpg" alt="" class="profile-photo">
+      </div>
+      <div class="the-name">
+        Oliver Cat
+      </div>
+    </div>
+    <div class="right-section">
+      <div>
+        <button class="new-friend">
+          Add Friend
+        </button>
+      </div>
+      <div>
+        <button class="new-message">
+          Message
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="the-left-side">
+    <div class="photo-pro">
+      <img src="https://i.pinimg.com/550x/12/34/07/123407db7309943ded82fac871dec181.jpg" alt="" class="dis-profiles">
+    </div>
+    <div class="photo-pro">
+      <img src="https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/3/orange-cat-closeup-peggy-collins.jpg" alt="" class="dis-profiles">
+    </div>
+    <div class="photo-pro">
+      <img src="https://cdn.rescuegroups.org/970/pictures/animals/17987/17987432/87650176.jpg?width=500" alt="" class="dis-profiles">
+    </div>
+  </div>
+  <div class="another-one">
+    <div class="menus">
+      <div class="categories">
+        <div class="the-info">
+          INFO
+        </div>
+        <div class="new-cat">
+          +
+        </div>
+      </div>
+      <div class="channels">#&nbsp;&nbsp;new-videos</div>
+      <div class="channels">#&nbsp;&nbsp;updates</div>
+      <div class="channels">#&nbsp;&nbsp;faq</div>
+    </div>
+  </div>
+</body>
+</html>

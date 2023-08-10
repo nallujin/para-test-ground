@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Position Fixed</title>
+  <style>
+    body {
+      height: 3000px;
+    }
+
+    .hello {
+      background-color: #000000;
+      color: #FFFFFF;
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+    }
+
+    .r-sidebar {
+      background-color: #5a9d65;
+      color: #FFFFFF;
+      width: 100px;
+      position: fixed;
+      right: 0;
+      top: 0;
+      bottom: 0;
+    }
+
+    .new-modal {
+      background-color: rgba(0, 0, 0, 0.5);
+      position: fixed;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .modal-container {
+      width: 300px;
+
+      background-color: #FFFFFF;
+      border-radius: 5px;
+      padding: 10px 10px;
+      align-items: flex-start;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .the-title {
+      font-weight: bold;
+      font-size: 25px;
+    }
+
+    .the-modal {
+      margin-top: 12px;
+      margin-bottom: 12px;
+    }
+
+    .the-button {
+
+    }
+  </style>
+</head>
+<body>
+  <div class="hello">
+    bottom-left
+  </div>
+  <div class="r-sidebar">
+    right sidebar
+  </div>
+  <div class="new-modal">
+    <div class="modal-container">
+      <div class="the-title">
+        Modal title
+      </div>
+      <div class="the-modal">
+        This is a modal
+      </div>
+      <div class="the-button">
+        <button class="">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -6,6 +6,11 @@
   left: 0;
   right: 0;
   top: 0;
+  background-color: #FFFFFF;
+  border-bottom-color: #c0c0c0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  height: 75px;
 }
 
 .left-side {
