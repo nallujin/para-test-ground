@@ -4,35 +4,63 @@
   <title>THe nEW</title>
   <style>
     body {
-      padding-bottom: 3000px;
+      height: 3000px;
+      font-family: Arial, sans-serif;
     }
 
-    .the-new {
-      background-color: #000000;
+
+
+    .main-cont {
+      width: 350px;
+      height: 500px;
+      border-style: solid;
+      border-width: 1px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+      background-color: #485052;
+    }
+
+    .sec-cont {
+      display: flex;
+      flex-direction: row;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      justify-content: center;
+
+    }
+
+    .dash {
+      width: 75px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .or {
+      margin-left: 10px;
+      margin-right: 10px;
       color: #FFFFFF;
-      position: fixed;
-      right: 0;
-      left: 0;
-      top: 0;
-      text-align: center;
-      height: 30px;
-    }
-
-    .new-the {
-      background-color: #1DA1F2;
-      position: fixed;
-      top: 30px;
-      left: 0;
-      bottom: 0;
+      font-weight: bold;
+      cursor: default;
     }
   </style>
 </head>
 <body>
-  <div class="the-new">
-    Hello
-  </div>
-  <div class="new-the">
-    B
+  <div class="main-cont">
+    <div class="sec-cont">
+      <div class="dash">
+        <hr>
+      </div>
+      <div class="or">
+        OR
+      </div>
+      <div class="dash">
+        <hr>
+      </div>
+    </div>
   </div>
 </body>
 </html>
