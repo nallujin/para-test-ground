@@ -1,2 +1,3 @@
 Learned something about git.
 Learned about merge conflict on git, and I found a new tutorial that I think I can understand the material.
+Re-learning HTML
