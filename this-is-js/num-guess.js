@@ -6,7 +6,7 @@ while(loopEmperor){
     while(loopGranter) {
         if (theHearts === 0) {
             alert("Your chances are up! The answer is " + theAnswer);
-            loopGranter = false;
+            break;
         } else {
             // Pass
         }
@@ -14,8 +14,10 @@ while(loopEmperor){
         let parsedAnswer = parseInt(urAnswer);
         if (parsedAnswer === theAnswer){
             alert("Congratulations! your answer is correct ("+ theAnswer +")!");
-            loopGranter = false;
-        } else if (parsedAnswer < theAnswer) {
+            break;
+        } else if (parsedAnswer < 1 || parsedAnswer > 10){
+            alert("Please follow the instructions!");
+        }else if (parsedAnswer < theAnswer) {
             alert("Incorrect. The answer is higher.");
             theHearts -= 1;
         } else if (parsedAnswer > theAnswer) {
@@ -27,9 +29,10 @@ while(loopEmperor){
     }
     let justConfirm = confirm("Play again?");
     if (justConfirm) {
+        theHearts = 3;
         loopEmperor = true;
     } else {
         loopEmperor = false;
     }
 }
-alert("Thank you for playing!")
+alert("Thank you for playing!");
