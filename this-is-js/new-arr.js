@@ -1,5 +1,5 @@
 //// Manipulasi array: menambah isi array.
-//// Keywords: length, join, (push, pop, unshift, shift), (slice, splice), (forEach, map), sort.
+//// Keywords: length, join, (push, pop, unshift, shift), (slice, splice), (forEach, map), sort, filter, find.
 //// ----------------------------------------------------------------
 let arr = ["Puja", "Wisasongko", "Cakep"];
 console.log(arr);
