@@ -29,11 +29,13 @@ let hapusPenumpang = function (namaPenumpang, penumpang) {
         console.log("Angkot masih kosong!");
     } else {
         for (let i = 0; i < penumpang.length; i++) {
-            if (namaPenumpang === undefined) {
+            if (namaPenumpang === penumpang[i]) {
+                penumpang[i] = undefined;
+                return penumpang;
+            }
+            else if (i === penumpang.length - 1) {
                 console.log(namaPenumpang + "tidak ada di dalam Angkot.");
                 return penumpang;
-            } else if (namaPenumpang === penumpang[i]) {
-                penumpang[i] = undefined;
             }
         }
     }
