@@ -37,3 +37,5 @@ function realFood () {
 
 nott = realFood();
 console.log(nott());
+
+console.log("Hello world!");
