@@ -35,7 +35,7 @@ function realFood () {
     return realName;
 }
 
-nott = realFood();
-console.log(nott());
+// nott = realFood();
+console.log(realFood()());
 
-console.log("Hello world!");
+// console.log("Hello world!");
