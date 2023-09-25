@@ -1,0 +1,118 @@
+html {
+  --s: 82px; /* control the size */
+  --c1: #b2b2b2;
+  --c2: #ffffff;
+  --c3: #d9d9d9;
+
+  --_g: var(--c3) 0 120deg,#0000 0;
+  background:
+      conic-gradient(from -60deg at 50% calc(100%/3),var(--_g)),
+      conic-gradient(from 120deg at 50% calc(200%/3),var(--_g)),
+      conic-gradient(from  60deg at calc(200%/3),var(--c3) 60deg,var(--c2) 0 120deg,#0000 0),
+      conic-gradient(from 180deg at calc(100%/3),var(--c1) 60deg,var(--_g)),
+      linear-gradient(90deg,var(--c1)   calc(100%/6),var(--c2) 0 50%,
+      var(--c1) 0 calc(500%/6),var(--c2) 0);
+  background-size: calc(1.732*var(--s)) var(--s);
+  font-family: Arial, sans-serif;
+}
+
+.main--container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.the--box {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  height: 2000px;
+  background-color: #FFFFFF;
+}
+
+.content--container {
+  border-style: dashed;
+  border-color: #000000;
+  border-width: 7px;
+  width: 750px;
+  height: 1950px;
+}
+
+.title--container {
+  border-style: solid;
+  font-weight: bold;
+  font-size: 36px;
+  border-width: 1px;
+  justify-content: center;
+  display: flex;
+  height: 72px;
+  vertical-align: center;
+  align-items: center;
+}
+
+.title--container p {
+  margin: 0;
+}
+
+.main--content {
+  display: flex;
+}
+
+.left-side {
+  border-style: solid;
+  border-width: 1px;
+  width: 70%;
+  display: flex;
+
+}
+
+.right-side {
+  border-style: solid;
+  border-width: 1px;
+  height: 100px;
+  width: 30%;
+}
+
+.right-fromleft {
+  width: 75%;
+  border-width: 1px;
+  border-style: solid;
+  display: flex;
+  margin: 5px 0;
+  padding: 0;
+}
+
+.right-fromleft p {
+  margin: 5px 5px;
+}
+.left-categories {
+  border-width: 1px;
+  border-style: solid;
+  height: auto;
+  display: flex;
+  width: 25%;
+  margin: 5px 0;
+}
+
+.left-categories p {
+  margin: 5px 5px;
+}
+
+.namess {
+  display: block;
+  border-style: solid;
+  border-width: 1px;
+  height: fit-content;
+  width: 100%;
+}
+
+.dobss {
+  display: block;
+  border-style: solid;
+  border-width: 1px;
+  height: fit-content;
+  width: 100%;
+}
