@@ -58,61 +58,9 @@ html {
 }
 
 .main--content {
-  display: flex;
+
 }
 
 .left-side {
-  border-style: solid;
-  border-width: 1px;
-  width: 70%;
-  display: flex;
 
-}
-
-.right-side {
-  border-style: solid;
-  border-width: 1px;
-  height: 100px;
-  width: 30%;
-}
-
-.right-fromleft {
-  width: 75%;
-  border-width: 1px;
-  border-style: solid;
-  display: flex;
-  margin: 5px 0;
-  padding: 0;
-}
-
-.right-fromleft p {
-  margin: 5px 5px;
-}
-.left-categories {
-  border-width: 1px;
-  border-style: solid;
-  height: auto;
-  display: flex;
-  width: 25%;
-  margin: 5px 0;
-}
-
-.left-categories p {
-  margin: 5px 5px;
-}
-
-.namess {
-  display: block;
-  border-style: solid;
-  border-width: 1px;
-  height: fit-content;
-  width: 100%;
-}
-
-.dobss {
-  display: block;
-  border-style: solid;
-  border-width: 1px;
-  height: fit-content;
-  width: 100%;
 }
