@@ -1,19 +1,16 @@
-// document.querySelector(); -> element
+// element.innerHTML
+// const judul = document.getElementById('judul');
+// judul.innerHTML = '<em>Puja Wisasongko</em>';
+//
+// const sectionA = document.querySelector('section#a');
+// sectionA.innerHTML = 'Hello world!'
 
-// const p4 = document.querySelector('#b p');
-// p4.style.color = 'green';
-// p4.style.fontSize = '2rem'
-//
-// const list2 = document.querySelector('section#b ul li:nth-child(2)');
-// list2.style.backgroundColor = "orange";
-//
-// // const iseng = document.querySelector('p');
-// // iseng.innerHTML = "iseng";
-//
-// const p = document.querySelectorAll('p');
-// for (let i = 0; i<p.length; i++) {
-//     p[i].style.backgroundColor = 'green';
-// }
+// const judul = document.querySelector('h1#judul');
+// judul.style.color = 'red';
+// judul.style.backgroundColor = 'salmon';
 
-const bruh = document.getElementsByTagName('p');
-bruh[3].style.backgroundColor = "palegreen";
+// const judul = document.getElementsByTagName('h1')[0];
+// const a = document.querySelector('section#a a');
+
+const p2 = document.querySelector('.p2');
+// p2.classList.add();
