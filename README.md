@@ -1,1 +1,1 @@
-There is nothing special here, since this repository was just intended for testing purposes.
+There is nothing special here. Just random things. Like trying some techs.
