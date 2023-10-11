@@ -19,8 +19,11 @@
 //     li.appendChild(liText);
 //     ul.appendChild(li);
 // });
-
+//
 const p3 = document.querySelector('.p3');
-p3.addEventListener('dblclick', function(){
+p3.addEventListener('mouseenter', function(){
     p3.style.backgroundColor = 'lightgreen';
+})
+p3.addEventListener('mouseleave', function(){
+    p3.style.backgroundColor = 'white';
 })

@@ -1,0 +1,29 @@
+const judul = document.getElementById('judul'); // returns <h1 id="judul">Hello World</h1>
+const paraP = document.getElementsByTagName('p'); // returns [p.p1, p.p2, p.p3, p] (HTMLCollection)
+const berClass = document.getElementsByClassName(); // returns [p.p1] (HTMLCollection)
+const ambilQuery = document.querySelector('section#a p1'); // returns <p class="p1">paragraf 1</p>
+const ambilQueries = document.querySelectorAll('p'); // returns [p.p1, p.p2, p.p3, p] (NodeList)
+
+
+
+element.innerHTML
+element.style.<property>
+element.setAttribute();
+
+
+element.classList
+element.classList.add();
+element.classList.remove();
+element.classList.toggle();
+element.classList.item();
+element.classList.contains();
+element.classList.replace();
+
+document.createElement();
+document.createTextNode();
+node.appendChild();
+node.insertBefore();
+parentNode.removeChild();
+parentNode.replaceChild();
+
+const coba = document.querySelector('section#a .p1');
