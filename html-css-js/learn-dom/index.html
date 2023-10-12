@@ -2,47 +2,50 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Dom Selection</title>
+  <title>Latihan DOM</title>
   <style>
-    * {
-      border: 2px solid #dedede;
-      padding: 15px;
-      margin: 15px;
-    }
-    html {
-      margin: 0;
-      padding: 0;
+    html, body {
+      height: 100%;
     }
     body {
-      max-width: 600px;
-      margin: 30px auto;
-      font-family: sans-serif;
-      color: #333;
+      text-align: center;
     }
-    .biru-muda {
-      background-color: lightblue;
+
+    .warna {
+      background-color: lightgreen;
+    }
+    .kotak {
+      width: 25px;
+      height: 25px;
+      margin: 10px auto;
+    }
+
+    .merah {
+      background-color: red;
+    }
+
+    .hijau {
+      background-color: green;
+    }
+
+    .biru {
+      background-color: blue;
     }
   </style>
 </head>
 <body>
+  <h1>Bermain dengan Warna</h1>
+  <button type="button" id="btn">Masbro</button>
 
-<h1 id="judul">Hello World</h1>
-<div id="container">
-  <section id="a">
-    <p class="p1">paragraf 1</p>
-    <a href="https://instagram.com/sandhikagalih">Instagram Sandhika Galih</a>
-    <p class="p2">paragraf 2</p>
-    <p class="p3">paragraf 3</p>
-  </section>
-  <section id="b">
-    <p>paragraf 4</p>
-    <ul>
-      <li>item 1</li>
-      <li>item 2</li>
-      <li>item 3</li>
-    </ul>
-  </section>
-</div>
-<script src="script.js"></script>
+  <br><br>
+
+  <div class="kotak merah"></div>
+  <input type="range" name="sMerah" min="0" max="255" value="255">
+  <div class="kotak hijau"></div>
+  <input type="range" name="sHijau" min="0" max="255" value="255">
+  <div class="kotak biru"></div>
+  <input type="range" name="sBiru" min="0" max="255" value="255">
+
+  <script src="script.js"></script>
 </body>
 </html>
