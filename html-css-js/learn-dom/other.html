@@ -1,0 +1,63 @@
+<!--License: https://bit.ly/3GjrtVF-->
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Using HTML, CSS create a styled checkbox with animation on state change</title>
+  <style>
+    .w3rcontainer{
+      border: 1px solid #cccfdb;
+      border-radius: 2px;
+    }
+    .hover-underline-animation {
+      display: inline-block;
+      position: relative;
+      color: #0087ca;
+    }
+
+    .hover-underline-animation:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #0087ca;
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+    }
+
+    .hover-underline-animation:hover:after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+
+  </style>
+
+</head>
+<body>
+<div class="w3rcontainer"><strong>Preview:</strong>
+  <div class="checkbox-container">
+    <input class="checkbox-input" id="oranges" type="checkbox" />
+    <label class="checkbox" for="oranges">
+    <span>
+      <svg width="12px" height="10px">
+        <use xlink:href="#check"></use>
+      </svg>
+    </span>
+      <span>Oranges</span>
+    </label>
+    <input class="checkbox-input" id="bananas" type="checkbox" />
+    <label class="checkbox" for="bananas">
+    <span>
+      <svg width="12px" height="10px">
+        <use xlink:href="#check"></use>
+      </svg>
+    </span>
+      <span>Bananas</span>
+    </label>
+  </div>
+</div>
+</body>
+</html>
